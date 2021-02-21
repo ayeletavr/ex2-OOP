@@ -1,0 +1,34 @@
+ayeletavr
+
+=============================
+=      File description     =
+=============================
+SpaceShip.java - This class represents a spaceship object in the game.
+this is a father class to all kinds of spaceships in the game.
+SpaceShipFactory.java - This class represents the physical state of spaceship.
+a.java - the aggressive spaceship class.
+b.java - the basher spaceship class.
+d.java - the drunkard spaceship class.
+h.java - the human-controlled spaceship class.
+r.java - the runner spaceship class.
+s.java - the special spaceship class.
+
+=============================
+=          Design           =
+=============================
+In this exercise, we were requested to design a SpaceWars game, with different kinds of spaceships.
+Since all kinds of them are actually Ships, I chose to make SpaceShip class abstract,
+and try to implement as many methods in this class.
+Spaceship is a father class to all kinds of ships (a, b, d, h, s, d),
+and some of spaceships methods were implemented inside those classes.
+
+=============================
+=  Implementation details   =
+=============================
+As I wrote by explaining the project design -
+When a method should be implement the same to all kinds of spaceships, it was implemented in SpaceShip class.
+When a method should be implement to a specific kind of spaceship, it was implemented in the specific class.
+
+=============================
+=    Answers to questions   =
+=============================
